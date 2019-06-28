@@ -1,0 +1,32 @@
+{
+  "name": "al-mqtt-broker",
+  "version": "1.0.0",
+  "description": "Broker for Local IOT Playground",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azrrael-exe/al-mqtt-broker.git"
+  },
+  "keywords": [
+    "IOT",
+    "MQTT"
+  ],
+  "author": "vcamargo.e@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Azrrael-exe/al-mqtt-broker/issues"
+  },
+  "homepage": "https://github.com/Azrrael-exe/al-mqtt-broker#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment-timezone": "^0.5.25",
+    "mosca": "^2.8.3"
+  }
+}
